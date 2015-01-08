@@ -1,5 +1,5 @@
 #/bin/bash
-
+#export PATH=/Users/sdhu/proj.raspi/xcompile/gcc-arm-none-eabi-4_9-2014q4/bin:$PATH
 if [ "armv6l" = `arch` ]; then
 	# Native compile on the Raspberry Pi
 	mkdir -p build/raspberry/release
